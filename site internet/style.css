@@ -1,0 +1,114 @@
+body {
+    background-color: #777777;
+}
+
+.container {
+    background-color: gainsboro;
+    color: black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1080px;
+    padding: 45px;
+}
+
+.row {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+h1 {
+    background-color: transparent;
+    color: red;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    border: solid 2px red;
+    padding: 5px;
+}
+
+h2{
+    background-color: transparent;
+    color: #2222ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    background-color: #9c8484;
+    color: currentColor;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    width: 24%;
+}
+
+.button {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.explication {
+    text-indent: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+.dl {
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+form {
+    margin: 30px;
+}
+
+#nav-bar {
+    background-color: rgb(134, 134, 134);
+}
+
+a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: lightskyblue;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    background-color: lightskyblue;
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.haut {
+    background-color: transparent;
+    color: currentColor;
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+
+.haut:hover {
+    background-color: gainsboro;
+    color: gray;
+}
+
+.menu {
+    margin: auto;
+}
